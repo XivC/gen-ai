@@ -12,7 +12,7 @@ client = make_client()
 MODEL = get_model()
 
 PER_CITY = 5
-MAX_WORKERS = 5
+MAX_WORKERS = 15
 
 SPECIALITIES = [
     "программист",
@@ -118,6 +118,7 @@ def to_dataframe(apps: list[Application]) -> pd.DataFrame:
 def plot_bar(series: pd.Series, title: str, out: str):
     counts = series.value_counts()
     plt.figure(figsize=(8, 4))
+    counts.plot.bar()
     plt.title(title)
     plt.ylabel("Число заявок")
     plt.xticks(rotation=20)
