@@ -1,0 +1,644 @@
+[
+  {
+    "name": "отзыв 1",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Not working on Nexus 6 after Naugat update",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "отзыв 2",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "now won't refresh",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 3",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Not getting any data on iball / Slide 10 inches tablet",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 4",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "after upgrading to Android N the widget just tells me \"no data\"",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "отзыв 5",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "option to make notification less important thus lower in notifications",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 6",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "doesn't work on 7 Just shows \"no data\" on Android 7",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "отзыв 7",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "Make it resizeble",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "dont work with my desire 500",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 8",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "app does not work with my device",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 9",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "Really useful Used this for many years",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 10",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "It's always shows around 800mA  changes value on refresh",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "name": "отзыв 1",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "the menu options blur badly while scrolling",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 2",
+    "aspects": [
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "Hasn't been updated for over 2 years",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Doesn't work anymore",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 3",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "works great for my LG Premiere",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 4",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "why is it speaking English despite I configured Google TTS for the Dutch language",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 5",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "If u could add in regular expressions too then power users can change what is said to remove unnecessary text etc",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 6",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "if there's no continents on the message it does not play anything",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 7",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "stable & never break down",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "производительность",
+        "sentiment": "neutral",
+        "quote": "Clock time announce. ?) Battery low announce. If these options can be added it'll be the best ever for sure",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 8",
+    "aspects": [
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "No response from Pilot_51 to any comments here",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "App appears to be abandon-ware. Outdated.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 9",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "No sound on Android Nougat",
+        "confidence": 1.0
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Now it stopped working after OS upgrade",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "отзыв 10",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "cant stop this app very bad... experince i have uninstall app but still can't stop the message which are reding",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "User1",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "Crippling power consumption",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "User2",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "the dark theme being gray instead of black",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "+1 star for finally including auto-reconnect",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "User3",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "incredibly much faster on connection",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "дизайн",
+        "sentiment": "positive",
+        "quote": "looks awesome",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "User4",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "positive",
+        "quote": "really nice UI",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "User5",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Does not work on android 7.0",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "name": "User6",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "I wish the dark theme was black and not dark grey as a background",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "User7",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "The version on F-Droid (0.11.7) works",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "дизайн",
+        "sentiment": "positive",
+        "quote": "has an updated interface",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "User8",
+    "aspects": []
+  },
+  {
+    "name": "User9",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "Sadly uses too much battery",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "User10",
+    "aspects": [
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "Hasn't been updated in a long time (2014)",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "appears to break in Android N",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 1",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "Great app! The new version now works on my Bravia Android TV which is great as it's right by my rooftop aerial cable.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 2",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "It's not fully optimised and has some issues with crashing",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "цена",
+        "sentiment": "positive",
+        "quote": "especially considering the price and it's open source.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 3",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "Works on a Nexus 6p",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 4",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "The bandwidth seemed to be limited to maximum 2 MHz or so. I tried to increase the bandwidth but not possible.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "реклама",
+        "sentiment": "negative",
+        "quote": "I purchased this is because one of the pictures in the advertisement showed the 2.4GHz band with around 10MHz or more bandwidth. Is it not possible to increase the bandwidth?",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "name": "отзыв 5",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "this has to be the most stable and best to my liking",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "However we are quite limited on frequency band width id like to see it lowered to 14.mhz if possible",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 6",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "Works with RTL and Nextbook Aries 8.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "Demod stops working if the scan width is changed requiring restart.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "отзыв 7",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "But no go with Watson dongle... Nexus 9. Yet to try on Nexus 6p. So very disappointed!!! :-(",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "name": "отзыв 8",
+    "aspects": [
+      {
+        "aspect": "дизайн",
+        "sentiment": "positive",
+        "quote": "looks like a great program  1 of its kind",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "name": "отзыв 9",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "This thing is great. I am at the bottom of the learning curve but in the few minutes I have played with it it seems like it will be easy to learn and to use. Just what I hoped for.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 10",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "This software works fine on rtl sdr upconverter.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "But doesn't support sdrplay.Hope you add this support in near future.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 1",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "faster than google now",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "надёжность",
+        "sentiment": "positive",
+        "quote": "Still works",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 2",
+    "aspects": []
+  },
+  {
+    "name": "отзыв 3",
+    "aspects": []
+  },
+  {
+    "name": "отзыв 4",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "negative",
+        "quote": "search categories in Gallery images not",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "поддержка",
+        "sentiment": "negative",
+        "quote": "Plz. After update is 5 ?.plz fast update",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 5",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "fast",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "реклама",
+        "sentiment": "positive",
+        "quote": "I haven't seen any pop up advertisement yet",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "дизайн",
+        "sentiment": "positive",
+        "quote": "simple",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "name": "отзыв 6",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "neutral",
+        "quote": "Allow to set priority between apps / contacts etc...",
+        "confidence": 0.7
+      }
+    ]
+  },
+  {
+    "name": "отзыв 7",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "fast and accurate launchy style app searches",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "дизайн",
+        "sentiment": "negative",
+        "quote": "the widget is hideous",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 8",
+    "aspects": [
+      {
+        "aspect": "надёжность",
+        "sentiment": "negative",
+        "quote": "unfunctional crap",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "name": "отзыв 9",
+    "aspects": []
+  },
+  {
+    "name": "отзыв 10",
+    "aspects": [
+      {
+        "aspect": "производительность",
+        "sentiment": "positive",
+        "quote": "One of the best time savers",
+        "confidence": 0.9
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "verdicts": [
+    {
+      "action": "Обновить приложение для полной поддержки Android Nougat и выше.",
+      "support": "supported",
+      "evidence": [
+        "«Not working on Nexus 6 after Naugat update It used to  but now ampere reading says \"no data\". Volts and temperature works fine.»",
+        "«\"No data\" after upgrading to Android N CurrentWidget have served me well for a long time. However  after a system upgrade to Android N the widget just tells me \"no data\" when I try to read charge or discharge current.»",
+        "«Great for Android 6 but doesn't work on 7 Just shows \"no data\" on Android 7.»",
+        "«Does not work on android 7.0 I get a \"failed to load certificate\" error.»",
+        "«This version (0.9.8) is terribly outdated. I did not notice until it stopped working after the Android 7 update.»",
+        "«Hasn't been updated in a long time (2014) and appears to break in Android N.»",
+        "«Now it stopped working after OS upgrade»",
+        "«No sound on Android Nougat»"
+      ],
+      "comment": "Множество отзывов прямо указывают на неработоспособность на Android N и выше, включая отсутствие данных и ошибки."
+    },
+    {
+      "action": "Исправить ошибку отображения тока заряда/разряда, чтобы не показывало 'no data'.",
+      "support": "supported",
+      "evidence": [
+        "«Not working on Nexus 6 after Naugat update It used to  but now ampere reading says \"no data\". Volts and temperature works fine.»",
+        "«\"No data\" after upgrading to Android N CurrentWidget have served me well for a long time. However  after a system upgrade to Android N the widget just tells me \"no data\" when I try to read charge or discharge current.»",
+        "«Great for Android 6 but doesn't work on 7 Just shows \"no data\" on Android 7.»",
+        "«Not getting any data on iball / Slide 10 inches tablet . Kindly help/reply if you can. shivcharan»",
+        "«It shows voltage  level percentage and temperature but not current  which is why I installed the app.»"
+      ],
+      "comment": "Прямые жалобы на отображение 'no data' и отсутствие тока при работающих других параметрах."
+    },
+    {
+      "action": "Улучшить работу виджетов, обеспечить автоматическое обновление.",
+      "support": "supported",
+      "evidence": [
+        "«Worked great on prev  now won't refresh Used on Xperia M to check when charger connected properly (bad USB port) and it worked great. Tried with Xperia Z and widget won't refresh unless I hit the button. I already set integral to one second but no good...»",
+        "«Make it resizeble and implement charge drain / gain rate per sec or whatever»",
+        "«the widget is hideous :)»"
+      ],
+      "comment": "Есть жалобы на отсутствие автообновления виджета и просьбы о доработке."
+    },
+    {
+      "action": "Добавить настройки внешнего вида: темная тема, настраиваемые цвета, приоритет уведомлений.",
+      "support": "supported",
+      "evidence": [
+        "«+1 star for finally including auto-reconnect but -1 for the \"dark\" theme being gray instead of black. I much MUCH prefer the \"old\" appearance both with the black background and the brighter fonts. Can we have the old black background and associated fonts back perhaps in addition to the \"gray\" theme that is incorrectly labelled as \"dark\"? It was pretty easy to read in bright ambient light unlike the new gray theme.»",
+        "«My only beef/request is I wish the dark theme was black and not dark grey as a background. The grey makes it nearly impossible to read some of the colored text.»",
+        "«There is one missing thing - option to make notification less important thus lower in notifications. On lg g4 is displaying on lockscreen as sensitive data...»",
+        "«Allow to set priority between apps / contacts etc... As opposed to just on or off.»"
+      ],
+      "comment": "Пользователи просят улучшить темную тему, настраиваемые цвета и приоритет уведомлений."
+    },
+    {
+      "action": "Улучшить коммуникацию с пользователями: отвечать на отзывы, выпускать регулярные обновления.",
+      "support": "supported",
+      "evidence": [
+        "«No response from Pilot_51 to any comments here. App appears to be abandon-ware»",
+        "«Hasn't been updated for over 2 years»",
+        "«desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean»",
+        "«This version (0.9.8) is terribly outdated. I did not notice until it stopped working after the Android 7 update.»",
+        "«Hasn't been updated in a long time (2014) and appears to break in Android N.»"
+      ],
+      "comment": "Много жалоб на отсутствие обновлений и ответов от разработчика."
+    }
+  ],
+  "overall_score": 0.8,
+  "summary": "Все рекомендации обоснованы прямыми цитатами из отзывов, указывающими на конкретные проблемы."
+}

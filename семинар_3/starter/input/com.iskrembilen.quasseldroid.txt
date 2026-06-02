@@ -1,0 +1,54 @@
+ОТЗЫВЫ: мобильное приложение com.iskrembilen.quasseldroid
+Источник: Hugging Face sealuzh/app_reviews (F-Droid)
+
+═══════════════════════════════════════════════════════════
+
+--- отзыв 1 ---
+★ (4/5)
+Дата: October 27 2016
+Crippling power consumption The devs really need to work on the power consumption. This app destroys my battery. Other than that it's really hard to give up quassel when you live and breath IRC.
+
+--- отзыв 2 ---
+★ (3/5)
+Дата: September 24 2016
++1 star for finally including auto-reconnect  but -1 for the """"""""""""""""dark"""""""""""""""" theme being gray instead of black. I much MUCH prefer the """"""""""""""""old"""""""""""""""" appearance  both with the black background and the brighter fonts. Can we have the old black background and associated fonts back  perhaps in addition to the """"""""""""""""gray"""""""""""""""" theme that is incorrectly labelled as """"""""""""""""dark""""""""""""""""? It was pretty easy to read in bright ambient light  unlike the new gray theme.""
+
+--- отзыв 3 ---
+★ (5/5)
+Дата: September 20 2016
+Faster & nicer The new version compatible with Nougat looks awesome! It's also incredibly much faster on connection (I wish the Ubuntu client connected that quickly!). Really nice job on the update  thanks for updating it to work on Nougat too :)
+
+--- отзыв 4 ---
+★ (5/5)
+Дата: September 20 2016
+Great update! Really nice UI  and now is possible to see even hidden channels. I've missed that before. Thanks!
+
+--- отзыв 5 ---
+★ (1/5)
+Дата: September 13 2016
+Does not work. Does not work on android 7.0  I get a """"""""""""""""failed to load certificate"""""""""""""""" error.""
+
+--- отзыв 6 ---
+★ (5/5)
+Дата: September 11 2016
+Great app Excellent mobile companion to the quassel suite. My only beef/request is I wish the dark theme was black and not dark grey as a background. The grey makes it nearly impossible to read some of the colored text.
+
+--- отзыв 7 ---
+★ (5/5)
+Дата: August 23 2016
+This version (0.9.8) is terribly outdated. I did not notice until it stopped working after the Android 7 update. The version on F-Droid (0.11.7) works  has an updated interface and also features automatic reconnection.
+
+--- отзыв 8 ---
+★ (5/5)
+Дата: July 20 2016
+Does what it does This let's me connect to the core and chat  ez pz. Could custom colors be a possibility for this?
+
+--- отзыв 9 ---
+★ (5/5)
+Дата: July 06 2016
+Great Almost perfect App. Sadly uses too much battery  but I think that's because of the Quassel Protocol.
+
+--- отзыв 10 ---
+★ (1/5)
+Дата: May 19 2016
+Updates? Hasn't been updated in a long time (2014) and appears to break in Android N. Unfortunately it appears this is the only quassel client for Android.

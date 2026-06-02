@@ -1,0 +1,708 @@
+[
+  {
+    "author": "Аноним",
+    "rating": 3,
+    "platform": "android",
+    "review_date": "October 28 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 4,
+        "quote": "Not working on Nexus 6 after Naugat update It used to  but now ampere reading says \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"no data\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\". Volts and temperature works fine."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 3,
+    "platform": "android",
+    "review_date": "October 27 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "Worked great on prev  now won't refresh Used on Xperia M to check when charger connected properly (bad USB port) and it worked great. Tried with Xperia Z and widget won't refresh unless I hit the button. I already set integral to one second but no good..."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "October 25 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 1,
+        "quote": "Not getting any data on iball / Slide 10 inches tablet . Kindly help/reply if you can. shivcharan"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "September 29 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "\"No data\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" after upgrading to Android N CurrentWidget have served me well for a long time. However  after a system upgrade to Android N the widget just tells me \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"no data\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" when I try to read charge or discharge current. So as of now it's unusable  but hopefully a fix is on its way."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "September 20 2016",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 2,
+        "quote": "There is one missing thing - option to make notification less important thus lower in notifications. On lg g4 is displaying on lockscreen as sensitive data..."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "August 24 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "Great for Android 6 but doesn't work on 7 Just shows \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"no data\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" on Android 7."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 2,
+    "platform": "android",
+    "review_date": "August 06 2016",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 2,
+        "quote": "Make it resizeble and implement charge drain / gain rate per sec or whatever"
+      },
+      {
+        "category": "надёжность",
+        "severity": 4,
+        "quote": "dont work with my desire 500"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 2,
+    "platform": "android",
+    "review_date": "July 31 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "It seems that app does not work with my device. It shows voltage  level percentage and temperature but not current  which is why I installed the app."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "July 27 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "July 11 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 4,
+        "quote": "It's always shows around 800mA  changes value on refresh. Just noticed today it shows the same value when not plugged into charger."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.manor.currentwidget"
+  },
+  {
+    "author": "Anomin",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "November 07 2016",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 2,
+        "quote": "the menu options blur badly while scrolling"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "November 02 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "Doesn't work anymore"
+      },
+      {
+        "category": "поддержка",
+        "severity": 5,
+        "quote": "Hasn't been updated for over 2 years"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "October 11 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "October 02 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 3,
+        "quote": "why is it speaking English despite I configured Google TTS for the Dutch language"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "September 24 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "September 21 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 3,
+        "quote": "if there's no continents on the message it does not play anything"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 3,
+    "platform": "android",
+    "review_date": "September 07 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 2,
+        "quote": "If these options can be added it'll be the best ever for sure"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 2,
+    "platform": "android",
+    "review_date": "September 03 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 4,
+        "quote": "desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean"
+      },
+      {
+        "category": "поддержка",
+        "severity": 5,
+        "quote": "No response from Pilot_51 to any comments here. App appears to be abandon-ware"
+      },
+      {
+        "category": "надёжность",
+        "severity": 4,
+        "quote": "Where's the support for extended notification text??? This is the reason for many of the comments about notifications from certain apps not being spoken"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "August 28 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "No sound on Android Nougat"
+      },
+      {
+        "category": "поддержка",
+        "severity": 4,
+        "quote": "Now it stopped working after OS upgrade"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Anomin",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "July 18 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "cant stop this app very bad... experince i have uninstall app but still can't stop the message which are reding"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.pilot51.voicenotify"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": null,
+    "review_date": "October 27 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 5,
+        "quote": "The devs really need to work on the power consumption. This app destroys my battery."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 3,
+    "platform": null,
+    "review_date": "September 24 2016",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 2,
+        "quote": "+1 star for finally including auto-reconnect but -1 for the \"dark\" theme being gray instead of black. I much MUCH prefer the \"old\" appearance both with the black background and the brighter fonts. Can we have the old black background and associated fonts back perhaps in addition to the \"gray\" theme that is incorrectly labelled as \"dark\"? It was pretty easy to read in bright ambient light unlike the new gray theme."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "September 20 2016",
+    "issues": [],
+    "competitor_mentions": [
+      "Ubuntu client"
+    ],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "September 20 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": null,
+    "review_date": "September 13 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "Does not work on android 7.0 I get a \"failed to load certificate\" error."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "September 11 2016",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 3,
+        "quote": "My only beef/request is I wish the dark theme was black and not dark grey as a background. The grey makes it nearly impossible to read some of the colored text."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "August 23 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "This version (0.9.8) is terribly outdated. I did not notice until it stopped working after the Android 7 update."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "July 20 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": null,
+    "review_date": "July 06 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "Sadly uses too much battery but I think that's because of the Quassel Protocol."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": null,
+    "review_date": "May 19 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "Hasn't been updated in a long time (2014) and appears to break in Android N."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.iskrembilen.quasseldroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "October 12 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 2,
+        "quote": "The scan feature would be useful...any ETA on when this will be available? Also the option to import a list of bookmarks e.g. from a simple properties file would be useful."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "August 23 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "It's not fully optimised and has some issues with crashing"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "August 04 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 3,
+    "platform": "android",
+    "review_date": "July 25 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "The bandwidth seemed to be limited to maximum 2 MHz or so. I tried to increase the bandwidth but not possible."
+      },
+      {
+        "category": "реклама",
+        "severity": 4,
+        "quote": "I purchased this is because one of the pictures in the advertisement showed the 2.4GHz band with around 10MHz or more bandwidth."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "July 19 2016",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "However we are quite limited on frequency band width id like to see it lowered to 14.mhz if possible"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "May 19 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 3,
+        "quote": "Demod stops working if the scan width is changed requiring restart."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": "android",
+    "review_date": "March 31 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 5,
+        "quote": "But no go with Watson dongle... Nexus 9. Yet to try on Nexus 6p. So very disappointed!!! :-("
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "March 30 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "android",
+    "review_date": "February 27 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "February 20 2016",
+    "issues": [
+      {
+        "category": "поддержка",
+        "severity": 3,
+        "quote": "But doesn't support sdrplay.Hope you add this support in near future."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "com.mantz_it.rfanalyzer"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "other",
+    "review_date": "February 17 2016",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 2,
+        "quote": "outdated though. Despite the lack of updates"
+      }
+    ],
+    "competitor_mentions": [
+      "Google Now"
+    ],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "other",
+    "review_date": "January 14 2016",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "other",
+    "review_date": "December 08 2015",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "android",
+    "review_date": "October 17 2015",
+    "issues": [
+      {
+        "category": "производительность",
+        "severity": 3,
+        "quote": "search categories in Gallery images not. Plz. After update is 5 ?.plz fast update."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "other",
+    "review_date": "September 18 2015",
+    "issues": [],
+    "competitor_mentions": [
+      "Google search box",
+      "Nova Launcher"
+    ],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "other",
+    "review_date": "July 29 2015",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 2,
+        "quote": "Allow to set priority between apps / contacts etc... As opposed to just on or off."
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "other",
+    "review_date": "June 10 2015",
+    "issues": [
+      {
+        "category": "дизайн",
+        "severity": 1,
+        "quote": "the widget is hideous :)"
+      }
+    ],
+    "competitor_mentions": [
+      "Google search",
+      "launchy"
+    ],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 1,
+    "platform": "other",
+    "review_date": "March 22 2015",
+    "issues": [
+      {
+        "category": "надёжность",
+        "severity": 5,
+        "quote": "crap screens good but it is a piece of unfunctional crap intended only to still some data like apps history"
+      }
+    ],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 5,
+    "platform": "other",
+    "review_date": "March 13 2015",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  },
+  {
+    "author": "Аноним",
+    "rating": 4,
+    "platform": "other",
+    "review_date": "February 20 2015",
+    "issues": [],
+    "competitor_mentions": [],
+    "app": "vu.de.urpool.quickdroid"
+  }
+]

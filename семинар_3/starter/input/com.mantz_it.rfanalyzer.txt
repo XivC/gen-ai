@@ -1,0 +1,54 @@
+ОТЗЫВЫ: мобильное приложение com.mantz_it.rfanalyzer
+Источник: Hugging Face sealuzh/app_reviews (F-Droid)
+
+═══════════════════════════════════════════════════════════
+
+--- отзыв 1 ---
+★ (4/5)
+Дата: October 12 2016
+Great app! The new version now works on my Bravia Android TV which is great as it's right by my rooftop aerial cable. The scan feature would be useful...any ETA on when this will be available? Also the option to import a list of bookmarks e.g. from a simple properties file would be useful.
+
+--- отзыв 2 ---
+★ (4/5)
+Дата: August 23 2016
+Great It's not fully optimised and has some issues with crashing but still a nice app  especially considering the price and it's open source.
+
+--- отзыв 3 ---
+★ (5/5)
+Дата: August 04 2016
+Works on a Nexus 6p I'm still messing around with my hackrf but it works with my Nexus 6p  Trond usb-c to usb host adapter. Thanks!
+
+--- отзыв 4 ---
+★ (3/5)
+Дата: July 25 2016
+The bandwidth seemed to be limited to maximum 2 MHz or so. I tried to increase the bandwidth but not possible. I purchased this is because one of the pictures in the advertisement showed the 2.4GHz band with around 10MHz or more bandwidth. Is it not possible to increase the bandwidth? If not  it is just the same performance as other free APPs.
+
+--- отзыв 5 ---
+★ (5/5)
+Дата: July 19 2016
+Good job Tried a few . This has to be the most stable and best to my liking . And a whole world of settings to play with. However we are quite limited on frequency band width id like to see it lowered to 14.mhz if possible
+
+--- отзыв 6 ---
+★ (5/5)
+Дата: May 19 2016
+Works with RTL and Nextbook Aries 8. Demod stops working if the scan width is changed requiring restart.
+
+--- отзыв 7 ---
+★ (1/5)
+Дата: March 31 2016
+I'll forgo the refund. But no go with Watson dongle... Nexus 9. Yet to try on Nexus 6p. So very disappointed!!! :-(
+
+--- отзыв 8 ---
+★ (4/5)
+Дата: March 30 2016
+looks like a great program  1 of its kind I don't have the necessary hardware to utilize it though.
+
+--- отзыв 9 ---
+★ (5/5)
+Дата: February 27 2016
+This thing is great. I am at the bottom of the learning curve but in the few minutes I have played with it it seems like it will be easy to learn and to use. Just what I hoped for.
+
+--- отзыв 10 ---
+★ (4/5)
+Дата: February 20 2016
+Support for sdrplay This software works fine on rtl sdr upconverter.But doesn't support sdrplay.Hope you add this support in near future.

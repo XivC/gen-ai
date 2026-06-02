@@ -1,0 +1,67 @@
+app,name,aspect,sentiment,confidence,quote
+com.manor.currentwidget,отзыв 1,надёжность,negative,0.95,Not working on Nexus 6 after Naugat update
+com.manor.currentwidget,отзыв 2,надёжность,negative,0.9,now won't refresh
+com.manor.currentwidget,отзыв 3,надёжность,negative,0.9,Not getting any data on iball / Slide 10 inches tablet
+com.manor.currentwidget,отзыв 4,надёжность,negative,0.95,"after upgrading to Android N the widget just tells me ""no data"""
+com.manor.currentwidget,отзыв 5,дизайн,negative,0.8,option to make notification less important thus lower in notifications
+com.manor.currentwidget,отзыв 6,надёжность,negative,0.95,"doesn't work on 7 Just shows ""no data"" on Android 7"
+com.manor.currentwidget,отзыв 7,дизайн,negative,0.7,Make it resizeble
+com.manor.currentwidget,отзыв 7,надёжность,negative,0.9,dont work with my desire 500
+com.manor.currentwidget,отзыв 8,надёжность,negative,0.9,app does not work with my device
+com.manor.currentwidget,отзыв 9,надёжность,positive,0.9,Really useful Used this for many years
+com.manor.currentwidget,отзыв 10,надёжность,negative,0.85,It's always shows around 800mA  changes value on refresh
+com.pilot51.voicenotify,отзыв 1,дизайн,negative,1.0,the menu options blur badly while scrolling
+com.pilot51.voicenotify,отзыв 2,поддержка,negative,1.0,Hasn't been updated for over 2 years
+com.pilot51.voicenotify,отзыв 2,надёжность,negative,1.0,Doesn't work anymore
+com.pilot51.voicenotify,отзыв 3,надёжность,positive,1.0,works great for my LG Premiere
+com.pilot51.voicenotify,отзыв 4,производительность,negative,1.0,why is it speaking English despite I configured Google TTS for the Dutch language
+com.pilot51.voicenotify,отзыв 5,производительность,positive,0.8,If u could add in regular expressions too then power users can change what is said to remove unnecessary text etc
+com.pilot51.voicenotify,отзыв 6,производительность,negative,1.0,if there's no continents on the message it does not play anything
+com.pilot51.voicenotify,отзыв 7,надёжность,positive,1.0,stable & never break down
+com.pilot51.voicenotify,отзыв 7,производительность,neutral,0.9,Clock time announce. ?) Battery low announce. If these options can be added it'll be the best ever for sure
+com.pilot51.voicenotify,отзыв 8,поддержка,negative,1.0,desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean
+com.pilot51.voicenotify,отзыв 8,поддержка,negative,1.0,No response from Pilot_51 to any comments here
+com.pilot51.voicenotify,отзыв 8,надёжность,negative,0.9,App appears to be abandon-ware. Outdated.
+com.pilot51.voicenotify,отзыв 9,надёжность,negative,1.0,No sound on Android Nougat
+com.pilot51.voicenotify,отзыв 9,надёжность,negative,1.0,Now it stopped working after OS upgrade
+com.pilot51.voicenotify,отзыв 10,надёжность,negative,1.0,cant stop this app very bad... experince i have uninstall app but still can't stop the message which are reding
+com.iskrembilen.quasseldroid,User1,производительность,negative,0.95,Crippling power consumption
+com.iskrembilen.quasseldroid,User2,дизайн,negative,0.9,the dark theme being gray instead of black
+com.iskrembilen.quasseldroid,User2,надёжность,positive,0.8,+1 star for finally including auto-reconnect
+com.iskrembilen.quasseldroid,User3,производительность,positive,0.95,incredibly much faster on connection
+com.iskrembilen.quasseldroid,User3,дизайн,positive,0.9,looks awesome
+com.iskrembilen.quasseldroid,User4,дизайн,positive,0.9,really nice UI
+com.iskrembilen.quasseldroid,User5,надёжность,negative,1.0,Does not work on android 7.0
+com.iskrembilen.quasseldroid,User6,дизайн,negative,0.9,I wish the dark theme was black and not dark grey as a background
+com.iskrembilen.quasseldroid,User7,надёжность,positive,0.9,The version on F-Droid (0.11.7) works
+com.iskrembilen.quasseldroid,User7,дизайн,positive,0.9,has an updated interface
+com.iskrembilen.quasseldroid,User9,производительность,negative,0.95,Sadly uses too much battery
+com.iskrembilen.quasseldroid,User10,поддержка,negative,0.9,Hasn't been updated in a long time (2014)
+com.iskrembilen.quasseldroid,User10,надёжность,negative,0.9,appears to break in Android N
+com.mantz_it.rfanalyzer,отзыв 1,производительность,positive,0.9,Great app! The new version now works on my Bravia Android TV which is great as it's right by my rooftop aerial cable.
+com.mantz_it.rfanalyzer,отзыв 2,производительность,negative,0.95,It's not fully optimised and has some issues with crashing
+com.mantz_it.rfanalyzer,отзыв 2,цена,positive,0.9,especially considering the price and it's open source.
+com.mantz_it.rfanalyzer,отзыв 3,производительность,positive,0.9,Works on a Nexus 6p
+com.mantz_it.rfanalyzer,отзыв 4,производительность,negative,0.95,The bandwidth seemed to be limited to maximum 2 MHz or so. I tried to increase the bandwidth but not possible.
+com.mantz_it.rfanalyzer,отзыв 4,реклама,negative,0.85,I purchased this is because one of the pictures in the advertisement showed the 2.4GHz band with around 10MHz or more bandwidth. Is it not possible to increase the bandwidth?
+com.mantz_it.rfanalyzer,отзыв 5,производительность,positive,0.9,this has to be the most stable and best to my liking
+com.mantz_it.rfanalyzer,отзыв 5,производительность,negative,0.8,However we are quite limited on frequency band width id like to see it lowered to 14.mhz if possible
+com.mantz_it.rfanalyzer,отзыв 6,производительность,positive,0.9,Works with RTL and Nextbook Aries 8.
+com.mantz_it.rfanalyzer,отзыв 6,надёжность,negative,0.95,Demod stops working if the scan width is changed requiring restart.
+com.mantz_it.rfanalyzer,отзыв 7,производительность,negative,0.95,But no go with Watson dongle... Nexus 9. Yet to try on Nexus 6p. So very disappointed!!! :-(
+com.mantz_it.rfanalyzer,отзыв 8,дизайн,positive,0.85,looks like a great program  1 of its kind
+com.mantz_it.rfanalyzer,отзыв 9,производительность,positive,0.9,This thing is great. I am at the bottom of the learning curve but in the few minutes I have played with it it seems like it will be easy to learn and to use. Just what I hoped for.
+com.mantz_it.rfanalyzer,отзыв 10,производительность,positive,0.9,This software works fine on rtl sdr upconverter.
+com.mantz_it.rfanalyzer,отзыв 10,поддержка,negative,0.9,But doesn't support sdrplay.Hope you add this support in near future.
+vu.de.urpool.quickdroid,отзыв 1,производительность,positive,0.9,faster than google now
+vu.de.urpool.quickdroid,отзыв 1,надёжность,positive,0.8,Still works
+vu.de.urpool.quickdroid,отзыв 4,производительность,negative,0.7,search categories in Gallery images not
+vu.de.urpool.quickdroid,отзыв 4,поддержка,negative,0.8,Plz. After update is 5 ?.plz fast update
+vu.de.urpool.quickdroid,отзыв 5,производительность,positive,0.9,fast
+vu.de.urpool.quickdroid,отзыв 5,реклама,positive,0.9,I haven't seen any pop up advertisement yet
+vu.de.urpool.quickdroid,отзыв 5,дизайн,positive,0.8,simple
+vu.de.urpool.quickdroid,отзыв 6,производительность,neutral,0.7,Allow to set priority between apps / contacts etc...
+vu.de.urpool.quickdroid,отзыв 7,производительность,positive,0.9,fast and accurate launchy style app searches
+vu.de.urpool.quickdroid,отзыв 7,дизайн,negative,0.9,the widget is hideous
+vu.de.urpool.quickdroid,отзыв 8,надёжность,negative,0.9,unfunctional crap
+vu.de.urpool.quickdroid,отзыв 10,производительность,positive,0.9,One of the best time savers

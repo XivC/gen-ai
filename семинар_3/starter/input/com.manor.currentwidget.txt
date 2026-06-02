@@ -1,0 +1,54 @@
+ОТЗЫВЫ: мобильное приложение com.manor.currentwidget
+Источник: Hugging Face sealuzh/app_reviews (F-Droid)
+
+═══════════════════════════════════════════════════════════
+
+--- отзыв 1 ---
+★ (3/5)
+Дата: October 28 2016
+Not working on Nexus 6 after Naugat update It used to  but now ampere reading says """"""""""""""""no data"""""""""""""""". Volts and temperature works fine.""
+
+--- отзыв 2 ---
+★ (3/5)
+Дата: October 27 2016
+Worked great on prev  now won't refresh Used on Xperia M to check when charger connected properly (bad USB port) and it worked great. Tried with Xperia Z and widget won't refresh unless I hit the button. I already set integral to one second but no good...
+
+--- отзыв 3 ---
+★ (5/5)
+Дата: October 25 2016
+Current Widget Not getting any data on iball / Slide 10 inches tablet . Kindly help/reply if you can. shivcharan
+
+--- отзыв 4 ---
+★ (1/5)
+Дата: September 29 2016
+""No data"""""""""""""""" after upgrading to Android N CurrentWidget have served me well for a long time. However  after a system upgrade to Android N the widget just tells me """"""""""""""""no data"""""""""""""""" when I try to read charge or discharge current. So as of now it's unusable  but hopefully a fix is on its way.""
+
+--- отзыв 5 ---
+★ (5/5)
+Дата: September 20 2016
+Great app There is one missing thing - option to make notification less important thus lower in notifications. On lg g4 is displaying on lockscreen as sensitive data...
+
+--- отзыв 6 ---
+★ (4/5)
+Дата: August 24 2016
+Great for Android 6 but doesn't work on 7 Just shows """"""""""""""""no data"""""""""""""""" on Android 7.""
+
+--- отзыв 7 ---
+★ (2/5)
+Дата: August 06 2016
+Yet to complete Make it resizeble and implement charge drain / gain rate per sec or whatever p.s. dont work with my desire 500
+
+--- отзыв 8 ---
+★ (2/5)
+Дата: July 31 2016
+No luck It seems that app does not work with my device. It shows voltage  level percentage and temperature but not current  which is why I installed the app.
+
+--- отзыв 9 ---
+★ (5/5)
+Дата: July 27 2016
+Really useful Used this for many years  easy to check on current drain and temps
+
+--- отзыв 10 ---
+★ (1/5)
+Дата: July 11 2016
+Fake? It's always shows around 800mA  changes value on refresh. Just noticed today it shows the same value when not plugged into charger.

@@ -1,0 +1,54 @@
+ОТЗЫВЫ: мобильное приложение com.pilot51.voicenotify
+Источник: Hugging Face sealuzh/app_reviews (F-Droid)
+
+═══════════════════════════════════════════════════════════
+
+--- отзыв 1 ---
+★ (4/5)
+Дата: November 07 2016
+Good app. This app is really good. I only gave it 4 stars cause the menu options blur badly while scrolling. Other than that it's perfect and very helpful.
+
+--- отзыв 2 ---
+★ (1/5)
+Дата: November 02 2016
+Garbage. Was good. Hasn't been updated for over 2 years. Doesn't work anymore. Don't waste your time.
+
+--- отзыв 3 ---
+★ (5/5)
+Дата: October 11 2016
+?????????? Flawless  I've been looking for something like this  found it  works great for my LG Premiere
+
+--- отзыв 4 ---
+★ (4/5)
+Дата: October 02 2016
+Nice I like the app but why is it speaking English despite I configured Google TTS for the Dutch language. The phone's language is UK English  only speech should be Dutch
+
+--- отзыв 5 ---
+★ (5/5)
+Дата: September 24 2016
+Brilliant Work If u could add in regular expressions too then power users can change what is said to remove unnecessary text etc
+
+--- отзыв 6 ---
+★ (4/5)
+Дата: September 21 2016
+Best voice app   love it  only problem is that if there's no continents on the message it does not play anything. It should have an option that if there's no continents on the body I should say the application name
+
+--- отзыв 7 ---
+★ (3/5)
+Дата: September 07 2016
+Great App. But Great App  actually it's the only one so far I found stable & never break down  an app which announce everything.. Except: ?)Clock time announce. ?) Battery low announce. If these options can be added it'll be the best ever for sure
+
+--- отзыв 8 ---
+★ (2/5)
+Дата: September 03 2016
+Good app but desperately needs updating!!! Has not kept up with the latest Android versions since Jelly Bean. Where's the support for extended notification text??? This is the reason for many of the comments about notifications from certain apps not being spoken. No response from Pilot_51 to any comments here. App appears to be abandon-ware. Outdated.
+
+--- отзыв 9 ---
+★ (1/5)
+Дата: August 28 2016
+No sound on Android Nougat Used this on Marshmallow for my Flir Fx app. Now it stopped working after OS upgrade. Otherwise great app??
+
+--- отзыв 10 ---
+★ (1/5)
+Дата: July 18 2016
+cant stop this app very bad... experince i have uninstall app but still can't stop the message which are reding

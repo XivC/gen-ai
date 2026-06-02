@@ -1,0 +1,11 @@
+{
+  "fidelity": 0.9523809523809523,
+  "ghost_aspect_quotes": 3,
+  "ghost_aspect_pct": 0.045454545454545456,
+  "reviews_count": 50,
+  "overall_score": 0.8,
+  "input_tokens": 60316,
+  "output_tokens": 52340,
+  "cost_usd": 0.02309944,
+  "elapsed_sec": 197.00134801864624
+}

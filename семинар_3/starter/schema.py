@@ -1,91 +1,79 @@
-"""
-schema.py — общие Pydantic-схемы пайплайна
-===========================================
-Заполняется постепенно, по мере прохождения раундов. На старте — пусто.
-
-Карта моделей по раундам:
-  Раунд 1   — Concern, Participant
-  Раунд 2   — AspectSentiment, ParticipantSentiment
-  Раунд 2.5 — DiscoveredAspects (для autodiscovery)
-  Раунд 3   — ChunkSummary, DiscussionSummary
-  Раунд 3.5 — GroupSummary (для иерархического Map-Reduce)
-  Раунд 5   — ActionVerdict, JudgeReport
-  Раунд 7   — MultiDocSummary
-"""
-
 from __future__ import annotations
 
+from datetime import date
 from typing import Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
+ASPECTS = [
+    "производительность",
+    "дизайн",
+    "поддержка",
+    "цена",
+    "реклама",
+    "надёжность",
+]
 
-# ══════════════════════════════════════════════════════════
-# Раунд 1 — Information Extraction
-# ══════════════════════════════════════════════════════════
-class Concern(BaseModel):
-    category: Literal["price", "speed", "ux", "support", "feature"]
+class Issue(BaseModel):
+    category: Literal[
+        "производительность",
+        "дизайн",
+        "поддержка",
+        "цена",
+        "реклама",
+        "надёжность",
+    ]
     severity: int = Field(ge=1, le=5)
     quote: str
 
 
-class Participant(BaseModel):
-    name: str
-    age: Optional[int] = None
-    city: str
-    occupation: str
-    concerns: list[Concern]
+class Review(BaseModel):
+    author: str
+    rating: Optional[int] = Field(default=None, ge=1, le=5)
+    platform: Optional[Literal["android", "ios", "other"]] = None
+    review_date: Optional[str] = None
+    issues: list[Issue]
     competitor_mentions: list[str] = Field(default_factory=list)
 
+    @field_validator("review_date")
+    @classmethod
+    def review_date_not_in_future(cls, value: Optional[str]) -> Optional[str]:
+        if value is None:
+            return value
+        for fmt in ("%Y-%m-%d", "%d.%m.%Y", "%B %d %Y", "%B %d, %Y"):
+            try:
+                from datetime import datetime
 
-class MatchVerdict(BaseModel):
-    matched: bool
-    matched_index: int = Field(default=-1, description="номер жалобы или -1")
-    reason: str = ""
+                parsed = datetime.strptime(value.strip(), fmt).date()
+                if parsed > date.today():
+                    raise ValueError(f"Дата отзыва {value} в будущем")
+                return value
+            except ValueError as e:
+                if "в будущем" in str(e):
+                    raise
+                continue
+        return value
 
 
-# ══════════════════════════════════════════════════════════
-# Раунд 2 — Аспектный анализ
-# ══════════════════════════════════════════════════════════
 class AspectSentiment(BaseModel):
-    aspect: Literal["price", "speed", "ux", "support", "feature"]
+    aspect: Literal[
+        "производительность",
+        "дизайн",
+        "поддержка",
+        "цена",
+        "реклама",
+        "надёжность",
+    ]
     sentiment: Literal["positive", "negative", "neutral"]
     quote: str
     confidence: float = Field(ge=0, le=1)
 
 
-class ParticipantSentiment(BaseModel):
+class ReviewSentiment(BaseModel):
     name: str
     aspects: list[AspectSentiment]
 
 
-# ══════════════════════════════════════════════════════════
-# Раунд 2.5 — Autodiscovery аспектов
-# ══════════════════════════════════════════════════════════
-class DiscoveredAspect(BaseModel):
-    name: str
-    description: str = Field(min_length=5)
-
-
-class DiscoveredAspects(BaseModel):
-    aspects: list[DiscoveredAspect] = Field(min_length=3, max_length=12)
-
-
-class DynamicAspect(BaseModel):
-    aspect: str
-    sentiment: Literal["positive", "negative", "neutral"]
-    quote: str
-    confidence: float = Field(ge=0, le=1)
-
-
-class DynamicParticipant(BaseModel):
-    name: str
-    aspects: list[DynamicAspect]
-
-
-# ══════════════════════════════════════════════════════════
-# Раунд 3 — Map-Reduce-резюме
-# ══════════════════════════════════════════════════════════
 class ChunkSummary(BaseModel):
     speaker: str
     key_points: list[str] = Field(min_length=1, max_length=6)
@@ -98,18 +86,6 @@ class DiscussionSummary(BaseModel):
     action_items: list[str] = Field(min_length=1, max_length=8)
 
 
-# ══════════════════════════════════════════════════════════
-# Раунд 3.5 — Иерархический Map-Reduce
-# ══════════════════════════════════════════════════════════
-class GroupSummary(BaseModel):
-    speakers: list[str]
-    themes: list[str] = Field(min_length=1, max_length=6)
-    overall_sentiment: Literal["positive", "negative", "mixed"]
-
-
-# ══════════════════════════════════════════════════════════
-# Раунд 5 — LLM-as-judge
-# ══════════════════════════════════════════════════════════
 class ActionVerdict(BaseModel):
     action: str
     support: Literal["supported", "weakly_supported", "not_supported"]
@@ -123,9 +99,6 @@ class JudgeReport(BaseModel):
     summary: str
 
 
-# ══════════════════════════════════════════════════════════
-# Раунд 7 — Multi-doc сводка
-# ══════════════════════════════════════════════════════════
 class MultiDocSummary(BaseModel):
     common_themes: list[str] = Field(min_length=1, max_length=8)
     unique_per_bank: dict[str, list[str]]
