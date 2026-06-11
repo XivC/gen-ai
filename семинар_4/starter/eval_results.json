@@ -1,0 +1,570 @@
+{
+  "fixed": {
+    "mean": 0.875,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "Где приводится определение машинного обучения по Тому Митчеллу?",
+        "score": 1.0,
+        "gold": [
+          "wiki_ml"
+        ],
+        "retrieved_ids": [
+          "wiki_ml__0",
+          "wiki_dl__8",
+          "wiki_ai__5",
+          "wiki_ml__6",
+          "wiki_nn__2"
+        ],
+        "retrieved_sources": [
+          "wiki_ml",
+          "wiki_dl",
+          "wiki_ai",
+          "wiki_ml",
+          "wiki_nn"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "question": "В какой статье описан тест на способность машины мыслить как человек?",
+        "score": 1.0,
+        "gold": [
+          "wiki_ai"
+        ],
+        "retrieved_ids": [
+          "wiki_ai__9",
+          "wiki_ai__4",
+          "wiki_ai__5",
+          "wiki_ai__8",
+          "wiki_ai__14"
+        ],
+        "retrieved_sources": [
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "Где упоминается LSTM?",
+        "score": 1.0,
+        "gold": [
+          "wiki_rnn"
+        ],
+        "retrieved_ids": [
+          "wiki_rnn__8",
+          "wiki_rnn__1",
+          "wiki_tree__6",
+          "wiki_ai__7",
+          "wiki_backprop__14"
+        ],
+        "retrieved_sources": [
+          "wiki_rnn",
+          "wiki_rnn",
+          "wiki_tree",
+          "wiki_ai",
+          "wiki_backprop"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "question": "Какие статьи рассказывают про обратное распространение ошибки?",
+        "score": 1.0,
+        "gold": [
+          "wiki_backprop",
+          "wiki_nn"
+        ],
+        "retrieved_ids": [
+          "wiki_backprop__0",
+          "wiki_ml__5",
+          "wiki_nn__2",
+          "wiki_dl__1",
+          "wiki_nn__9"
+        ],
+        "retrieved_sources": [
+          "wiki_backprop",
+          "wiki_ml",
+          "wiki_nn",
+          "wiki_dl",
+          "wiki_nn"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "точный артикул",
+        "question": "Где упоминается XGBoost?",
+        "score": 1.0,
+        "gold": [
+          "wiki_tree"
+        ],
+        "retrieved_ids": [
+          "wiki_tree__6",
+          "wiki_nn__0",
+          "wiki_ai__7",
+          "wiki_reg__2",
+          "wiki_tree__1"
+        ],
+        "retrieved_sources": [
+          "wiki_tree",
+          "wiki_nn",
+          "wiki_ai",
+          "wiki_reg",
+          "wiki_tree"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "синоним",
+        "question": "Где описан метод минимизации квадратов отклонений при построении зависимости?",
+        "score": 1.0,
+        "gold": [
+          "wiki_reg"
+        ],
+        "retrieved_ids": [
+          "wiki_reg__5",
+          "wiki_backprop__3",
+          "wiki_reg__4",
+          "wiki_nn__14",
+          "wiki_backprop__0"
+        ],
+        "retrieved_sources": [
+          "wiki_reg",
+          "wiki_backprop",
+          "wiki_reg",
+          "wiki_nn",
+          "wiki_backprop"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "позитив",
+        "question": "Где говорится о премии Тьюринга за прорывы в глубоких нейросетях?",
+        "score": 1.0,
+        "gold": [
+          "wiki_dl"
+        ],
+        "retrieved_ids": [
+          "wiki_dl__4",
+          "wiki_dl__2",
+          "wiki_nn__4",
+          "wiki_dl__1",
+          "wiki_dl__3"
+        ],
+        "retrieved_sources": [
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_nn",
+          "wiki_dl",
+          "wiki_dl"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "перефраз",
+        "question": "Где перечислены задачи понимания и генерации текстов на человеческом языке?",
+        "score": 1.0,
+        "gold": [
+          "wiki_nlp"
+        ],
+        "retrieved_ids": [
+          "wiki_nlp__0",
+          "wiki_nlp__2",
+          "wiki_nlp__1",
+          "wiki_rnn__1",
+          "wiki_ai__4"
+        ],
+        "retrieved_sources": [
+          "wiki_nlp",
+          "wiki_nlp",
+          "wiki_nlp",
+          "wiki_rnn",
+          "wiki_ai"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "multi-hop",
+        "question": "В каких статьях обсуждается градиентный спуск?",
+        "score": 1.0,
+        "gold": [
+          "wiki_gd",
+          "wiki_backprop"
+        ],
+        "retrieved_ids": [
+          "wiki_gd__10",
+          "wiki_ml__5",
+          "wiki_nn__2",
+          "wiki_gd__0",
+          "wiki_backprop__0"
+        ],
+        "retrieved_sources": [
+          "wiki_gd",
+          "wiki_ml",
+          "wiki_nn",
+          "wiki_gd",
+          "wiki_backprop"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "question": "Где упоминается SHRDLU?",
+        "score": 0.0,
+        "gold": [
+          "wiki_nlp"
+        ],
+        "retrieved_ids": [
+          "wiki_tree__6",
+          "wiki_ai__6",
+          "wiki_reg__14",
+          "wiki_backprop__14",
+          "wiki_backprop__0"
+        ],
+        "retrieved_sources": [
+          "wiki_tree",
+          "wiki_ai",
+          "wiki_reg",
+          "wiki_backprop",
+          "wiki_backprop"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "синоним",
+        "question": "Где описано отсечение ветвей дерева для уменьшения переобучения?",
+        "score": 1.0,
+        "gold": [
+          "wiki_tree"
+        ],
+        "retrieved_ids": [
+          "wiki_tree__5",
+          "wiki_tree__0",
+          "wiki_tree__4",
+          "wiki_tree__3",
+          "wiki_tree__2"
+        ],
+        "retrieved_sources": [
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "multi-hop cross-collection",
+        "question": "Какие статьи связывают глубокое обучение с рекуррентными сетями?",
+        "score": 0.5,
+        "gold": [
+          "wiki_dl",
+          "wiki_rnn"
+        ],
+        "retrieved_ids": [
+          "wiki_dl__9",
+          "wiki_dl__0",
+          "wiki_nn__3",
+          "wiki_dl__8",
+          "wiki_nn__5"
+        ],
+        "retrieved_sources": [
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_nn",
+          "wiki_dl",
+          "wiki_nn"
+        ]
+      }
+    ]
+  },
+  "recursive": {
+    "mean": 0.7083333333333334,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "Где приводится определение машинного обучения по Тому Митчеллу?",
+        "score": 1.0,
+        "gold": [
+          "wiki_ml"
+        ],
+        "retrieved_ids": [
+          "wiki_ai__101",
+          "wiki_ml__35",
+          "wiki_ml__49",
+          "wiki_ai__102",
+          "wiki_ml__45"
+        ],
+        "retrieved_sources": [
+          "wiki_ai",
+          "wiki_ml",
+          "wiki_ml",
+          "wiki_ai",
+          "wiki_ml"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "question": "В какой статье описан тест на способность машины мыслить как человек?",
+        "score": 1.0,
+        "gold": [
+          "wiki_ai"
+        ],
+        "retrieved_ids": [
+          "wiki_ai__69",
+          "wiki_ai__72",
+          "wiki_ai__31",
+          "wiki_ai__30",
+          "wiki_ai__102"
+        ],
+        "retrieved_sources": [
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_ai"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "Где упоминается LSTM?",
+        "score": 1.0,
+        "gold": [
+          "wiki_rnn"
+        ],
+        "retrieved_ids": [
+          "wiki_rnn__62",
+          "wiki_rnn__6",
+          "wiki_rnn__67",
+          "wiki_rnn__61",
+          "wiki_rnn__4"
+        ],
+        "retrieved_sources": [
+          "wiki_rnn",
+          "wiki_rnn",
+          "wiki_rnn",
+          "wiki_rnn",
+          "wiki_rnn"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "question": "Какие статьи рассказывают про обратное распространение ошибки?",
+        "score": 1.0,
+        "gold": [
+          "wiki_backprop",
+          "wiki_nn"
+        ],
+        "retrieved_ids": [
+          "wiki_backprop__0",
+          "wiki_nn__15",
+          "wiki_dl__4",
+          "wiki_nn__68",
+          "wiki_backprop__4"
+        ],
+        "retrieved_sources": [
+          "wiki_backprop",
+          "wiki_nn",
+          "wiki_dl",
+          "wiki_nn",
+          "wiki_backprop"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "точный артикул",
+        "question": "Где упоминается XGBoost?",
+        "score": 0.0,
+        "gold": [
+          "wiki_tree"
+        ],
+        "retrieved_ids": [
+          "wiki_reg__79",
+          "wiki_reg__71",
+          "wiki_rnn__54",
+          "wiki_nn__107",
+          "wiki_reg__63"
+        ],
+        "retrieved_sources": [
+          "wiki_reg",
+          "wiki_reg",
+          "wiki_rnn",
+          "wiki_nn",
+          "wiki_reg"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "синоним",
+        "question": "Где описан метод минимизации квадратов отклонений при построении зависимости?",
+        "score": 1.0,
+        "gold": [
+          "wiki_reg"
+        ],
+        "retrieved_ids": [
+          "wiki_reg__29",
+          "wiki_reg__34",
+          "wiki_backprop__24",
+          "wiki_backprop__20",
+          "wiki_gd__77"
+        ],
+        "retrieved_sources": [
+          "wiki_reg",
+          "wiki_reg",
+          "wiki_backprop",
+          "wiki_backprop",
+          "wiki_gd"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "позитив",
+        "question": "Где говорится о премии Тьюринга за прорывы в глубоких нейросетях?",
+        "score": 1.0,
+        "gold": [
+          "wiki_dl"
+        ],
+        "retrieved_ids": [
+          "wiki_ml__46",
+          "wiki_dl__31",
+          "wiki_dl__2",
+          "wiki_dl__20",
+          "wiki_nn__7"
+        ],
+        "retrieved_sources": [
+          "wiki_ml",
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_nn"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "перефраз",
+        "question": "Где перечислены задачи понимания и генерации текстов на человеческом языке?",
+        "score": 1.0,
+        "gold": [
+          "wiki_nlp"
+        ],
+        "retrieved_ids": [
+          "wiki_ai__96",
+          "wiki_nlp__6",
+          "wiki_ai__97",
+          "wiki_ai__95",
+          "wiki_nlp__5"
+        ],
+        "retrieved_sources": [
+          "wiki_ai",
+          "wiki_nlp",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_nlp"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "multi-hop",
+        "question": "В каких статьях обсуждается градиентный спуск?",
+        "score": 0.0,
+        "gold": [
+          "wiki_gd",
+          "wiki_backprop"
+        ],
+        "retrieved_ids": [
+          "wiki_nn__43",
+          "wiki_tree__41",
+          "wiki_dl__21",
+          "wiki_dl__15",
+          "wiki_ai__94"
+        ],
+        "retrieved_sources": [
+          "wiki_nn",
+          "wiki_tree",
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_ai"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "question": "Где упоминается SHRDLU?",
+        "score": 0.0,
+        "gold": [
+          "wiki_nlp"
+        ],
+        "retrieved_ids": [
+          "wiki_nn__0",
+          "wiki_ml__42",
+          "wiki_ai__111",
+          "wiki_ai__39",
+          "wiki_gd__0"
+        ],
+        "retrieved_sources": [
+          "wiki_nn",
+          "wiki_ml",
+          "wiki_ai",
+          "wiki_ai",
+          "wiki_gd"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "синоним",
+        "question": "Где описано отсечение ветвей дерева для уменьшения переобучения?",
+        "score": 1.0,
+        "gold": [
+          "wiki_tree"
+        ],
+        "retrieved_ids": [
+          "wiki_tree__43",
+          "wiki_tree__39",
+          "wiki_tree__14",
+          "wiki_tree__2",
+          "wiki_tree__35"
+        ],
+        "retrieved_sources": [
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree",
+          "wiki_tree"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "multi-hop cross-collection",
+        "question": "Какие статьи связывают глубокое обучение с рекуррентными сетями?",
+        "score": 0.5,
+        "gold": [
+          "wiki_dl",
+          "wiki_rnn"
+        ],
+        "retrieved_ids": [
+          "wiki_dl__69",
+          "wiki_dl__19",
+          "wiki_nn__16",
+          "wiki_dl__20",
+          "wiki_dl__1"
+        ],
+        "retrieved_sources": [
+          "wiki_dl",
+          "wiki_dl",
+          "wiki_nn",
+          "wiki_dl",
+          "wiki_dl"
+        ]
+      }
+    ]
+  }
+}

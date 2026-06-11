@@ -1,72 +1,74 @@
 [
   {
     "id": 1,
-    "question": "Кто жаловался на push-уведомления?",
     "type": "прямой",
-    "gold_sources": ["olymp_anna", "tinkoff_alex", "tinkoff_lyuba"],
-    "note": "слово «пуш» / «push» в явном виде"
+    "question": "Где приводится определение машинного обучения по Тому Митчеллу?",
+    "gold_sources": ["wiki_ml"]
   },
   {
     "id": 2,
-    "question": "Кто ругался на скорость приложения?",
     "type": "синоним",
-    "gold_sources": ["olymp_sergey", "tinkoff_alex", "tinkoff_lyuba"],
-    "note": "слова «лагает», «тормозит», «крутится долго» — синонимы «скорости»"
+    "question": "В какой статье описан тест на способность машины мыслить как человек?",
+    "gold_sources": ["wiki_ai"]
   },
   {
     "id": 3,
-    "question": "Кто упомянул тариф «Корпоратив»?",
     "type": "точный артикул",
-    "gold_sources": ["tinkoff_alex", "tinkoff_pavel", "tinkoff_timur"],
-    "note": "dense теряет, BM25 находит"
+    "question": "Где упоминается LSTM?",
+    "gold_sources": ["wiki_rnn"]
   },
   {
     "id": 4,
-    "question": "Кто жаловался одновременно и на цену, и на скорость?",
     "type": "multi-hop",
-    "gold_sources": ["brightword_dmitry"],
-    "note": "Дмитрий: 1800 за урок дорого + видеокомната подвисает. Одно-проход RAG не соберёт оба сигнала от одного участника."
+    "question": "Какие статьи рассказывают про обратное распространение ошибки?",
+    "gold_sources": ["wiki_backprop", "wiki_nn"]
   },
   {
     "id": 5,
-    "question": "Кто упомянул ФЗ-152?",
     "type": "точный артикул",
-    "gold_sources": ["tinkoff_maria"],
-    "note": "юридический термин, dense может размыть"
+    "question": "Где упоминается XGBoost?",
+    "gold_sources": ["wiki_tree"]
   },
   {
     "id": 6,
-    "question": "Кто был недоволен интерфейсом?",
     "type": "синоним",
-    "gold_sources": ["olymp_olga", "brightword_viktor", "brightword_alina"],
-    "note": "Ольга: «меняется без предупреждения», Виктор: «я бы убрал из интерфейса всё», Алина: «дизайн карточек устарел»"
+    "question": "Где описан метод минимизации квадратов отклонений при построении зависимости?",
+    "gold_sources": ["wiki_reg"]
   },
   {
     "id": 7,
-    "question": "Кто хвалил поддержку?",
     "type": "позитив",
-    "gold_sources": ["tinkoff_kirill", "tinkoff_pavel", "brightword_polina"],
-    "note": "Кирилл: «поддержка — отдельный ромб», Павел: «решили за полчаса», Полина: «отвечает в течение часа»"
+    "question": "Где говорится о премии Тьюринга за прорывы в глубоких нейросетях?",
+    "gold_sources": ["wiki_dl"]
   },
   {
     "id": 8,
-    "question": "У кого были технические проблемы с оплатой или переводом?",
     "type": "перефраз",
-    "gold_sources": ["olymp_igor", "olymp_maksim", "brightword_polina"],
-    "note": "Игорь: деньги зависли на двое суток, Максим: крах в метро, Полина: двойное списание"
+    "question": "Где перечислены задачи понимания и генерации текстов на человеческом языке?",
+    "gold_sources": ["wiki_nlp"]
   },
   {
     "id": 9,
-    "question": "Кто одновременно пользуется Т-Банком и «Олимпом»?",
-    "type": "multi-hop cross-collection",
-    "gold_sources": ["olymp_darya", "tinkoff_alex", "tinkoff_lyuba"],
-    "note": "требует связать упоминания обоих банков в одном транскрипте"
+    "type": "multi-hop",
+    "question": "В каких статьях обсуждается градиентный спуск?",
+    "gold_sources": ["wiki_gd", "wiki_backprop"]
   },
   {
     "id": 10,
-    "question": "Кто упомянул СБП?",
     "type": "точный артикул",
-    "gold_sources": ["olymp_anna", "olymp_maksim", "tinkoff_kirill"],
-    "note": "аббревиатура, BM25 находит мгновенно"
+    "question": "Где упоминается SHRDLU?",
+    "gold_sources": ["wiki_nlp"]
+  },
+  {
+    "id": 11,
+    "type": "синоним",
+    "question": "Где описано отсечение ветвей дерева для уменьшения переобучения?",
+    "gold_sources": ["wiki_tree"]
+  },
+  {
+    "id": 12,
+    "type": "multi-hop cross-collection",
+    "question": "Какие статьи связывают глубокое обучение с рекуррентными сетями?",
+    "gold_sources": ["wiki_dl", "wiki_rnn"]
   }
 ]

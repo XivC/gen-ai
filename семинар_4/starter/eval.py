@@ -1,98 +1,69 @@
-"""
-Eval по 10 gold-вопросам. Метрика: hit-rate@5 на уровне документа-источника.
-
-Правило: если в ТОП-5 чанков встретился хотя бы один чанк из gold_sources —
-вопрос зачтён как HIT. Для вопросов, которым необходимы несколько чанков, считаем как долю найденных
-источников (например, 2 из 3 → 0.67).
-
-Команды:
-    python eval.py --naive         # прогнать текущую конфигурацию pipeline.py
-"""
-
-import argparse
 import json
-from pathlib import Path
 
-from pipeline import collection, hybrid_retrieve, retrieve
+from pipeline import ingest, retrieve
 
-GOLD_PATH = Path(__file__).parent / "data" / "gold.json"
-
-
-def load_gold() -> list[dict]:
-    return json.loads(GOLD_PATH.read_text(encoding="utf-8"))
+GOLD_PATH = "data/gold.json"
+RESULTS_PATH = "eval_results.json"
+K = 5
 
 
-def hit_rate(retrieved_ids: list[str], gold_sources: list[str]) -> float:
-    """
-    Для одного вопроса: сколько из gold_sources попали в ТОП-K чанков.
-    retrieved_ids = ['olymp_anna__0', 'tinkoff_alex__2', ...]
-    Мы смотрим только на префикс до '__' — это source_id.
-    """
+def load_gold():
+    with open(GOLD_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def hit_rate(retrieved_ids, gold_sources):
     retrieved_sources = {rid.split("__")[0] for rid in retrieved_ids}
     found = [g for g in gold_sources if g in retrieved_sources]
     return len(found) / len(gold_sources)
 
 
-def dense_only_retrieve(query: str, k: int = 5) -> dict:
-    return collection.query(query_texts=[query], n_results=k)
-
-
-def run(dense_only: bool = False, k: int = 5, verbose: bool = True) -> dict:
+def run():
     gold = load_gold()
     total = 0.0
     results = []
 
-    fn = dense_only_retrieve if dense_only else hybrid_retrieve
-    label = "DENSE-ONLY" if dense_only else "HYBRID (DENSE + BM25 + RRF)"
-    print(f"\n==={label}===\n")
-
     for item in gold:
         q = item["question"]
         gold_sources = item["gold_sources"]
-
-        hits = fn(q, k=k)
+        hits = retrieve(q, k=K)
         retrieved_ids = hits["ids"][0]
         retrieved_sources = [rid.split("__")[0] for rid in retrieved_ids]
-
         score = hit_rate(retrieved_ids, gold_sources)
         total += score
-
         results.append(
             {
                 "id": item["id"],
                 "type": item["type"],
+                "question": q,
                 "score": score,
                 "gold": gold_sources,
+                "retrieved_ids": retrieved_ids,
                 "retrieved_sources": retrieved_sources,
             }
         )
-
-        if verbose:
-            mark = "✓" if score == 1.0 else ("◐" if score > 0 else "✗")
-            print(
-                f"  [{item['id']:2d}] {item['type']:25s}  "
-                f"hit@{k} = {score:.2f}  {mark}  {q}"
-            )
+        mark = "OK" if score == 1.0 else ("PART" if score > 0 else "MISS")
+        print(
+            f"  [{item['id']:2d}] {item['type']}  "
+            f"hit@{K} = {score}  {mark} {q}"
+        )
 
     mean = total / len(gold)
-    if verbose:
-        print(f"\n  ИТОГО: hit-rate@{k} = {mean:.2f}  ({total:.1f} / {len(gold)})")
+    print(f"\n  ИТОГО: hit-rate@{K} = {mean:.2f}  ({total:.1f} / {len(gold)})")
     return {"mean": mean, "results": results}
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dense-only", action="store_true")
-    parser.add_argument("--k", type=int, default=5)
-    parser.add_argument("--quiet", action="store_true")
-    args = parser.parse_args()
-
-    # Проверка, что заполнили коллекцию
-    if collection.count() == 0:
-        print("⚠ Коллекция пустая. Запусти: python pipeline.py ingest")
-        return
-
-    run(k=args.k, verbose=not args.quiet)
+    summary = {}
+    for strategy in ("fixed", "recursive"):
+        print(f"Strategy: {strategy}")
+        ingest(strategy)
+        out = run()
+        summary[strategy] = {"mean": out["mean"], "results": out["results"]}
+    for strategy, data in summary.items():
+        print(f"  {strategy:10s}  hit-rate@{K} = {data['mean']:.2f}")
+    with open(RESULTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":

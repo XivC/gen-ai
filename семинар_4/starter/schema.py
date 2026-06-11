@@ -1,10 +1,3 @@
-"""
-Pydantic-схема ответа RAG.
-
-TODO (Блок 3 семинара): заполните поля RAGAnswer.
-Сейчас схема пустая — модель возвращает строку, и это как раз проблема.
-"""
-
 from pydantic import BaseModel, Field
 
 
@@ -17,5 +10,5 @@ class RAGAnswer(BaseModel):
         ge=0, le=1, description="Уверенность модели. Если < 0.5 — возвращаем 'не знаю'"
     )
     sources: list[str] = Field(
-        description="ID-чанков, откуда взяли, например: 'tbank_egor__0'"
+        description="ID-чанков, откуда взяли, например: 'wiki_ml__0'"
     )

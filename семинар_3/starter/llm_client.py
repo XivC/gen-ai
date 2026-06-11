@@ -13,10 +13,9 @@ Fallback: если LLM_BASE_URL не задан — идём в публичны
 
 Почему свой JSON-слой, а не нативный response_format=json_schema
 ---------------------------------------------------------------
-В лекции мы показываем «канонический» путь — `client.beta.chat.completions.parse(
-response_format=PydanticModel)` — он работает на всех актуальных моделях OpenAI.
-Но мы ходим в разные self-hosted эндпоинты (Qwen/vLLM, gpt-oss и т.п.) и у
-каждого свои причуды:
+Канонический путь — `client.beta.chat.completions.parse(response_format=PydanticModel)` — 
+работает на всех актуальных моделях OpenAI. Но мы ходим в разные self-hosted
+эндпоинты (Qwen/vLLM, gpt-oss и т.п.) и у каждого свои причуды:
   * vLLM+xgrammar валится на pydantic-схемах с `$defs` (tool-calling mode).
   * gpt-oss досылает после JSON токены harmony `<|constrain|>json<|message|>{...}`,
     из-за чего pydantic видит trailing characters и падает.
@@ -31,7 +30,6 @@ make_client() даёт drop-in API `client.chat.completions.create(
 ..., response_model=PydanticModel, max_retries=N)` — тот же интерфейс, что у
 нативного parse() и у обёрток типа instructor / outlines / guardrails.
 """
-
 from __future__ import annotations
 
 import json
@@ -46,8 +44,7 @@ from pydantic import BaseModel, TypeAdapter
 
 # .env загрузим, если есть python-dotenv. find_dotenv ходит вверх по дереву каталогов.
 try:
-    from dotenv import find_dotenv, load_dotenv
-
+    from dotenv import load_dotenv, find_dotenv
     load_dotenv(find_dotenv(usecwd=True))
 except ImportError:
     pass
@@ -141,7 +138,6 @@ def _extract_first_json(text: str):
 # Drop-in обёртка с API, совместимым с .parse() / instructor / outlines
 # ---------------------------------------------------------------------------
 
-
 class _Completions:
     def __init__(self, client: OpenAI):
         self._c = client
@@ -221,11 +217,7 @@ class _Completions:
                 except Exception as sdk_err:
                     # Сервер не переварил reasoning_effort / extra_body — сбросим их и повторим.
                     msg = str(sdk_err)
-                    bad = (
-                        "reasoning_effort" in msg
-                        or "chat_template_kwargs" in msg
-                        or "enable_thinking" in msg
-                    )
+                    bad = "reasoning_effort" in msg or "chat_template_kwargs" in msg or "enable_thinking" in msg
                     if bad and thinking_kw:
                         thinking_kw = {}
                         resp = _call(thinking_kw)
@@ -242,12 +234,10 @@ class _Completions:
             except Exception as e:
                 last_err = e
                 msgs.append({"role": "assistant", "content": raw})
-                msgs.append(
-                    {
-                        "role": "user",
-                        "content": f"Невалидный ответ: {e}. Верни ТОЛЬКО один корректный JSON по схеме.",
-                    }
-                )
+                msgs.append({
+                    "role": "user",
+                    "content": f"Невалидный ответ: {e}. Верни ТОЛЬКО один корректный JSON по схеме.",
+                })
         assert last_err is not None
         raise last_err
 
